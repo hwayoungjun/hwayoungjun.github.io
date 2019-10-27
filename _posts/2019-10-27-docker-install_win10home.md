@@ -24,16 +24,14 @@ Docker is an open platform for developing, shipping, and running applications. D
 
 그런데 지금 제 노트북은 Windows 10 home 버전인 관계로 legacy 버전? 이라고 할 수 있는 Docker Toolbox 를 쓸겁니다.
 
-
-
 **Docker Toolbox 는 Docker Desktop 에서 사용하는 Hyper-V 라는 가상화 기술을 미지원하는 OS 를 위해 만들어진 installer 입니다.**
 
 {: .box-note}
 Docker Toolbox is an installer for quick setup and launch of a Docker environment on older Mac and Windows systems that do not meet the requirements of the new Docker Desktop for Mac and Docker Desktop for Windows apps.
 
 만약 상위 버전의 Windows 를 사용하시는 분이라면 Docker Desktop 을 사용하시면 되겠습니다.
-
-
+<br>
+<br>
 하단 Git 배포 페이지에서 exe 또는 맥사용자라면 pkg 파일을 다운받아주세요. 
 
 [Docker ToolBox 설치](https://github.com/docker/toolbox/releases)
@@ -69,10 +67,10 @@ Compose is a tool for defining and running multi-container Docker applications. 
 ![docker](https://hwayoungjun.github.io/img/docker_install_4.PNG)
 
 **DOCKER_HOST** 라는 환경변수의 값이 앞으로 사용할 Docker Machine 이 제공하는 가상 호스트입니다. Docker 컨테이너에 설치한 DB, Server 등에 접근 시 이 가상 호스트 IP 를 통해 접근할 것입니다.
-
-
-
-
+<br>
+<br>
+<br>
+<br>
 설치가 완료됐으면 이제 Docker 를 실행해봅시다.
 
 Docker QuickStart Terminal 또는 Docker 설치경로 내 start.sh 를 통해 실행 가능합니다.
@@ -80,12 +78,11 @@ Docker QuickStart Terminal 또는 Docker 설치경로 내 start.sh 를 통해 �
 ![docker](https://hwayoungjun.github.io/img/docker_install_5.PNG)
 
 위 사진과 같이 귀여운 도커 고래가 뜬다면 설치 완료입니다. 
-
-
-
-
-
+<br>
+<br>
+<br>
+<br>
 다음 포스팅은 Mysql 설치 및 포트 분리를 통한 2대의 Mysql 구동 테스트로 찾아뵙겠습니다.
 
-틀린 내용이 있다면 개인메일로 언제든지 피드백 부탁드립니다.
+> 틀린 내용이 있다면 개인메일로 언제든지 피드백 부탁드립니다.
 > jun9813@gmail.com
