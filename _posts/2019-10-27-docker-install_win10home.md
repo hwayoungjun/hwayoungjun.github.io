@@ -19,7 +19,8 @@ Docker 공식 문서에서 발췌해온 소개글입니다. [Docker Docs](https:
 Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
 ...인프라랑 App을 분리해준다고? App을 관리하는 방법과 같은 방법으로 인프라를 관리한다고?
-
+<br>
+<br>
 무슨 말인지 지금은 도통 알 수가 없습니다. 일단 설치부터 해봅시다.
 
 그런데 지금 제 노트북은 Windows 10 home 버전인 관계로 legacy 버전? 이라고 할 수 있는 Docker Toolbox 를 쓸겁니다.
@@ -41,8 +42,10 @@ Docker Toolbox is an installer for quick setup and launch of a Docker environmen
 ![docker](https://hwayoungjun.github.io/img/docker_install_1.PNG)
 
 설치 관련 이슈 등에 대해 도커에게 제공할 것인지 묻고 있습니다. 쿨하게 보내줍시다.
-
-
+<br>
+<br>
+<br>
+<br>
 ![docker](https://hwayoungjun.github.io/img/docker_install_2.PNG)
 
 이번엔 설치할 컴포넌트를 선택하는 화면입니다.
@@ -56,8 +59,10 @@ Docker Machine is a tool that lets you install Docker Engine on virtual hosts, a
 
 {: .box-note}
 Compose is a tool for defining and running multi-container Docker applications. With Compose
-
-
+<br>
+<br>
+<br>
+<br>
 ![docker](https://hwayoungjun.github.io/img/docker_install_3.PNG)
 
 이제 바탕화면 바로가기 아이콘을 만들지, 시스템 환경변수에 추가할지 등을 묻는 화면입니다. 환경변수는 소중하니 무조건 넣도록 합시다.
@@ -83,6 +88,9 @@ Docker QuickStart Terminal 또는 Docker 설치경로 내 start.sh 를 통해 �
 <br>
 <br>
 다음 포스팅은 Mysql 설치 및 포트 분리를 통한 2대의 Mysql 구동 테스트로 찾아뵙겠습니다.
-
+<br>
+<br>
+---------------------------------------
 > 틀린 내용이 있다면 개인메일로 언제든지 피드백 부탁드립니다.
 > jun9813@gmail.com
+<br>
