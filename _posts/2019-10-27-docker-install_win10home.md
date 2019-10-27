@@ -16,7 +16,7 @@ Docker 는 개발 생태계를 완전히 바꾼 플랫폼이라고 생각합니�
 Docker 공식 문서에서 발췌해온 소개글입니다. [Docker Docs](https://docs.docker.com)
 
 {: .box-note}
-Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
+**Note:** Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running it in production.
 
 ...인프라랑 App을 분리해준다고? App을 관리하는 방법과 같은 방법으로 인프라를 관리한다고?
 
@@ -29,7 +29,7 @@ Docker is an open platform for developing, shipping, and running applications. D
 **Docker Toolbox 는 Docker Desktop 에서 사용하는 Hyper-V 라는 가상화 기술을 미지원하는 OS 를 위해 만들어진 installer 입니다.**
 
 {: .box-note}
-Docker Toolbox is an installer for quick setup and launch of a Docker environment on older Mac and Windows systems that do not meet the requirements of the new Docker Desktop for Mac and Docker Desktop for Windows apps.
+**Note:** Docker Toolbox is an installer for quick setup and launch of a Docker environment on older Mac and Windows systems that do not meet the requirements of the new Docker Desktop for Mac and Docker Desktop for Windows apps.
 
 만약 상위 버전의 Windows 를 사용하시는 분이라면 Docker Desktop 을 사용하시면 되겠습니다.
 
