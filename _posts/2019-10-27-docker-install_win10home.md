@@ -1,7 +1,7 @@
 ---
 layout: post
-title: [Docker] Windows 10 home 환경에서 설치하기
-subtitle: Each post also has a subtitle
+title: Docker Windows 10 home 환경에서 설치하기
+subtitle: Docker Windows 10 home 환경에서 설치하기
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [docker]
