@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: TEST Ttile
+title: 인생은 소울라이크
 
 # Short description of your site
-description: TEST Decsription
+description: 소울류 게임을 즐겨하는 고통받는 개발자
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
