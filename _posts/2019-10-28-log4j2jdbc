@@ -13,5 +13,4 @@ Spring Boot 에서는 logback 을 사용하는 logging 라이브러리를 starte
 log4j2를 제대로 알고 사용해보자! 라는 생각으로 이번 분석 포스팅을 준비하게 되었습니다.
 
 [spring-boot-starter-logging 메이븐 저장소](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-logging)
-<br>
-<br>
+
