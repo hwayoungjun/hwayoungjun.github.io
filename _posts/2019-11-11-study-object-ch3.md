@@ -6,6 +6,9 @@ gh-repo: hwayoungjun/hwayoungjun.github.io
 gh-badge: [star, fork, follow]
 tags: [study, object, oop]
 comments: true
+categories : [spring]
+pagination: 
+  enabled: true
 ---
 
 ## 2장 되돌아보기

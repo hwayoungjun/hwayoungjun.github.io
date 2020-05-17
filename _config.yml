@@ -159,8 +159,21 @@ date_format: "%B %-d, %Y"
 timezone: "Asia/Seoul"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
+
+#bug fix for jekyll 3
+excerpt_separator: ""
+
+# paginate: 5
+permalink: /:year/:month/:title.html
+
+# Paginate config
+pagination:
+  enabled: true
+  per_page: 5
+  sort_reverse: true
+  title: ':title'
+  permalink: '/page/:num_'
+  limit: 0
 
 kramdown:
   input: GFM
@@ -249,7 +262,7 @@ prose:
           help: "Check to publish post, uncheck to hide."
 
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
 
 # Beautiful Jekyll / Dean Attali
