@@ -29,6 +29,11 @@ Gemfile 추가 및 주석 해제
 **4. 서버 실행**
 > chcp 65001
 
+>   Conversion error: Jekyll::Converters::Scss encountered an error while converting 'assets/css/style.scss':
+                    Invalid CP949 character "\xE2" on line 5
+
+위와 같은 에러 방지
+
 명령프롬프트 인코딩 설정
 
 > bundle exec jekyll serve
