@@ -19,6 +19,7 @@ Ruby+Devkit 2.6.6-1 (x64) 버전 설치
 
 **3. 로컬 환경에서 서버를 돌리기 위해 위해 Gemfile 수정**
 > gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+
 Gemfile 추가 및 주석 해제
 
 **4. 서버 실행**
