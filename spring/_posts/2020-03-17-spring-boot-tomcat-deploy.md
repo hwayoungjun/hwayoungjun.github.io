@@ -6,9 +6,7 @@ gh-repo: hwayoungjun/hwayoungjun.github.io
 gh-badge: [star, fork, follow]
 tags: [Spring Boot]
 comments: true
-categories : [spring]
-pagination: 
-  enabled: true
+categories : spring
 ---
 
 {% highlight java linenos %}

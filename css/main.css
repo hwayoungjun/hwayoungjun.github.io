@@ -787,3 +787,7 @@ pre {
   font-style: italic;
   font-size: 16px;
 }
+
+.navlinks-container .active {
+  font-weight: bold !important;
+}

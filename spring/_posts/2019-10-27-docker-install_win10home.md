@@ -7,9 +7,7 @@ gh-badge: [star, fork, follow]
 tags: [docker]
 comments: true
 image: /img/docker_logo.jpg
-categories : [spring]
-pagination: 
-  enabled: true
+categories : spring
 ---
 
 처음 RDBMS 설치할 적에 굉장히 애를 많이 먹었던 기억이 납니다. 게다가 한번 잘못 설치해서 지우고 다시 깔아야 하는 날에는... 차라리 포맷을 하는게 낫겠다는 생각까지 했었죠.

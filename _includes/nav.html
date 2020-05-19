@@ -36,14 +36,9 @@
       <li class="navlinks-container">
         <a class="navlinks-parent" href="javascript:void(0)">CATEGORY</a>
         <div class="navlinks-children">
-        {% assign pages_list = site.pages %}
-        {% for node in pages_list %}
-          {% if node.title != null %}
-            {% if node.layout == "category" %}
-              <a class="category-link {% if page.url == node.url %} active{% endif %}"
-              href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
-            {% endif %}
-          {% endif %}
+        {% for category in site.categories %}
+          <a class="category-link {% if page.url contains category[0] %}active{% endif %}"
+          href="{{ site.baseurl }}/{{ category[0] }}/">{{ category[0] }}</a>
         {% endfor %}
       </ul>
     </div>
