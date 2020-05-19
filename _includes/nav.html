@@ -32,6 +32,14 @@
           <li><a href="{{ link[1] | relative_url }}">{{ link[0] }}</a></li>
         {%- endif -%}
       {%- endfor -%}
+      <!-- 카테고리 영역 -->
+      <li class="navlinks-container">
+        <a class="navlinks-parent" href="javascript:void(0)">CATEGORY</a>
+        <div class="navlinks-children">
+        {% for category in site.categories %}
+          <a class="category-link {% if page.url contains category[0] %}active{% endif %}"
+          href="{{ site.baseurl }}/{{ category[0] }}/">{{ category[0] }}</a>
+        {% endfor %}
       </ul>
     </div>
 
